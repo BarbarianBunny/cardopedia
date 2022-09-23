@@ -393,6 +393,13 @@ a {
     opacity: 0.3;
 }
 
+.card-name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 .card-image {
     padding: 4px 4px;
 }

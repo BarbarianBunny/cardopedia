@@ -123,6 +123,7 @@ $(document).ready(function () {
         }
     });
 
+
     $(".card").click(function () {
         // Hide all visible card-content and deselect cards before updateHash()
         $(".card-content").removeClass(cardContent).addClass(cardContentHidden)
