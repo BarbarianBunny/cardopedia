@@ -16,4 +16,4 @@ Click on a card to reveal relationships such as:
 
 Check it out [Here](https://barbarianbunny.github.io/cardopedia/webpage/index.html)
 
-For other information, such as card descriptions, check out [Fandom Wiki](https://barbarianbunny.github.io/cardopedia/webpage/index.html)
+For other information, such as card descriptions, check out [Fandom Wiki](https://stacklands.fandom.com/wiki/Cardopedia)
