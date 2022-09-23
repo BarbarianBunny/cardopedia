@@ -220,6 +220,7 @@ textarea {
 
 html,
 body {
+    background-color: #FFF9E3;
     font-family: Verdana, sans-serif;
     font-size: 15px;
     line-height: 1.5;
@@ -247,7 +248,8 @@ a {
     overflow: hidden;
     text-decoration: none;
     color: inherit;
-    background-color: inherit;
+    background-color: #FFF5CF;
+    background-clip: content-box;
     text-align: center;
     cursor: pointer;
     white-space: nowrap;
@@ -340,7 +342,7 @@ a {
     overflow: hidden;
     text-decoration: none;
     color: inherit;
-    background-color: lightgray;
+    background-color: #e2f4ff;
     text-align: center;
     cursor: pointer;
     white-space: nowrap;
@@ -359,7 +361,7 @@ a {
 
 .card-content {
     display: block;
-    background-color: lightgray;
+    background-color: #e2f4ff;
 }
 
 .card-content--hidden {

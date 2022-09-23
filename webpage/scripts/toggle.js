@@ -19,8 +19,9 @@ function toggleCard($card) {
     $card.removeClass(card).addClass(cardSelected)
     $content.removeClass(cardContentHidden).addClass(cardContent)
 
-    // Go to
+    // Go to card
     $(window).scrollTop($card.offset().top)
+    // Go to card after load position change
     setTimeout(function () {
         $(window).scrollTop($card.offset().top)
     }, 1)
@@ -128,6 +129,13 @@ $(document).ready(function () {
         $(".card--selected").removeClass(cardSelected).addClass(card)
         updateHash($(this))
     });
+
+    $(".card--selected").click(function () {
+        // Hide all visible card-content and deselect cards before updateHash()
+        $(".card-content").removeClass(cardContent).addClass(cardContentHidden)
+        $(".card--selected").removeClass(cardSelected).addClass(card)
+        updateHash($(this))
+    })
 
     $("html").keydown(function (e) {
         if (e.keyCode === 37) {
