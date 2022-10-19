@@ -1,4 +1,4 @@
-from cardopedia.card_name import CardName
+from cardopedia.enums.card_name import CardName
 
 
 class Populate:

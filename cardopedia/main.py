@@ -1,17 +1,17 @@
 import os
 from cardopedia.cardpedia import Cardpedia
-from cardopedia.generate_makes import generate_makes
-from cardopedia.generate_sources import generate_sources
-from cardopedia.populate_fish import populate_fish
-from cardopedia.populate_food import populate_food
-from cardopedia.populate_humans import populate_humans
-from cardopedia.populate_ideas import populate_ideas
-from cardopedia.populate_locations import populate_locations
-from cardopedia.populate_mobs import populate_mobs
-from cardopedia.populate_packs import populate_packs
-from cardopedia.populate_resources import populate_resources
-from cardopedia.populate_rumors import populate_rumors
-from cardopedia.populate_structures import populate_structures
+from cardopedia.generate_groups.generate_makes import generate_makes
+from cardopedia.generate_groups.generate_sources import generate_sources
+from cardopedia.populate_cards.populate_fish import populate_fish
+from cardopedia.populate_cards.populate_food import populate_food
+from cardopedia.populate_cards.populate_humans import populate_humans
+from cardopedia.populate_cards.populate_ideas import populate_ideas
+from cardopedia.populate_cards.populate_locations import populate_locations
+from cardopedia.populate_cards.populate_mobs import populate_mobs
+from cardopedia.populate_cards.populate_packs import populate_packs
+from cardopedia.populate_cards.populate_resources import populate_resources
+from cardopedia.populate_cards.populate_rumors import populate_rumors
+from cardopedia.populate_cards.populate_structures import populate_structures
 
 cardpedia = Cardpedia()
 

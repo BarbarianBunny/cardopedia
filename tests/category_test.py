@@ -1,9 +1,9 @@
 from cardopedia.card import Card
 from cardopedia.category import Category
-from cardopedia.category_name import CategoryName
+from cardopedia.enums.category_name import CategoryName
 from cardopedia.group import Group
-from cardopedia.card_name import CardName
-from cardopedia.group_name import GroupName
+from cardopedia.enums.card_name import CardName
+from cardopedia.enums.group_name import GroupName
 
 
 class InitClass:

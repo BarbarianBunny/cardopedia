@@ -1,7 +1,7 @@
 import os
 
-from cardopedia.card_name import CardName
-from cardopedia.kebab_case import kebab_case
+from cardopedia.enums.card_name import CardName
+from cardopedia.support_modules.kebab_case import kebab_case
 
 os.getcwd()
 collection = "C:/Users/carur/IdeaProjects/cardopedia/webpage/images"

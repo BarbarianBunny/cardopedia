@@ -1,7 +1,7 @@
-from cardopedia.card_name import CardName
+from cardopedia.enums.card_name import CardName
 from cardopedia.cardpedia import Cardpedia
-from cardopedia.category_name import CategoryName
-from cardopedia.group_name import GroupName
+from cardopedia.enums.category_name import CategoryName
+from cardopedia.enums.group_name import GroupName
 
 
 def populate_fish(cardpedia: Cardpedia):

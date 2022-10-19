@@ -1,8 +1,8 @@
-from cardopedia.card_name import CardName
+from cardopedia.enums.card_name import CardName
 from cardopedia.cardpedia import Cardpedia
-from cardopedia.category_name import CategoryName
-from cardopedia import generate_makes
-from cardopedia.group_name import GroupName
+from cardopedia.enums.category_name import CategoryName
+from cardopedia.generate_groups import generate_makes
+from cardopedia.enums.group_name import GroupName
 
 
 class GenerateMakes:

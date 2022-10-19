@@ -1,5 +1,5 @@
-from cardopedia.kebab_case import kebab_case
-from cardopedia.ordered_str_enum import OrderedStrEnum
+from cardopedia.support_modules.kebab_case import kebab_case
+from cardopedia.enums.ordered_str_enum import OrderedStrEnum
 
 
 class GroupName(OrderedStrEnum):

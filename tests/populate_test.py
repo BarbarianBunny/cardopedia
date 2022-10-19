@@ -1,5 +1,5 @@
-from cardopedia.card_name import CardName
-from cardopedia.populate import Populate
+from cardopedia.enums.card_name import CardName
+from cardopedia.populate_cards.populate import Populate
 
 
 class Adults:

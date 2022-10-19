@@ -2,7 +2,7 @@ import json
 
 import pytest
 
-from cardopedia.group_name import GroupName
+from cardopedia.enums.group_name import GroupName
 
 
 class Enum:

@@ -1,5 +1,5 @@
 from cardopedia.cardpedia import Cardpedia
-from cardopedia.group_name import GroupName
+from cardopedia.enums.group_name import GroupName
 
 
 def generate_makes(cardpedia: Cardpedia):

@@ -1,4 +1,4 @@
-from cardopedia import kebab_case
+from cardopedia.support_modules import kebab_case
 
 
 class KebabCase:

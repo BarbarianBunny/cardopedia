@@ -1,5 +1,5 @@
-from cardopedia.card_name import CardName
-from cardopedia.group_name import GroupName
+from cardopedia.enums.card_name import CardName
+from cardopedia.enums.group_name import GroupName
 
 
 class Group:

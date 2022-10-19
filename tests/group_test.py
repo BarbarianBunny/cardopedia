@@ -1,9 +1,9 @@
 import pytest
 
 from cardopedia.card import Card
-from cardopedia.card_name import CardName
+from cardopedia.enums.card_name import CardName
 from cardopedia.group import Group
-from cardopedia.group_name import GroupName
+from cardopedia.enums.group_name import GroupName
 
 
 class InitClass:

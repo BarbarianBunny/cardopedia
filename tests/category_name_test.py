@@ -2,7 +2,7 @@ import json
 
 import pytest
 
-from cardopedia.category_name import CategoryName
+from cardopedia.enums.category_name import CategoryName
 
 
 class Enum:
