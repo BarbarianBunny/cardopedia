@@ -1,6 +1,7 @@
 # [Cardopedia](https://barbarianbunny.github.io/cardopedia/webpage/index.html)
 
-A fan made cardopedia for the game [Stacklands](https://store.steampowered.com/app/1948280/Stacklands/).
+! Not update past the very first cards !
+A fan made cardopedia for the game [Stacklands](https://store.steampowered.com/app/1948280/Stacklands/). 
 
 Designed to minimize your time searching for cards and their relationships.
 
